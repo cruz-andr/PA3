@@ -3,28 +3,7 @@
 __pycache__/
 *.pyc
 .DS_Store
-
-# Data (Fashion-MNIST) - do not upload per assignment instructions
 data/
-
-# Report (will be submitted separately, not via git)
-report.pdf
-Assignment Instructions.pdf
-
-# Build / helper scripts not part of submission
-make_report.py
-
-# Training artifacts
 train.log
 *.npy
 param_counts.txt
-
-# Generated plots (belong in the PDF, not the repo)
-training_losses.png
-ffn_predictions.png
-cnn_predictions.png
-ffn_confusion_matrix.png
-cnn_confusion_matrix.png
-kernel_grid.png
-image_transform_grid.png
-feature_progression.png
